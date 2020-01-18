@@ -15,6 +15,7 @@
 		07F0460D23D2B42500DB67EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F0460B23D2B42500DB67EA /* LaunchScreen.storyboard */; };
 		07F0461823D2B42500DB67EA /* jumsimi_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0461723D2B42500DB67EA /* jumsimi_iosTests.swift */; };
 		07F0462323D2B42500DB67EA /* jumsimi_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0462223D2B42500DB67EA /* jumsimi_iosUITests.swift */; };
+		07F0463123D2B4C000DB67EA /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0463023D2B4C000DB67EA /* Webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		07F0461E23D2B42500DB67EA /* jumsimi_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jumsimi_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F0462223D2B42500DB67EA /* jumsimi_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jumsimi_iosUITests.swift; sourceTree = "<group>"; };
 		07F0462423D2B42500DB67EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F0463023D2B4C000DB67EA /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				07F0460023D2B42400DB67EA /* AppDelegate.swift */,
 				07F0460223D2B42400DB67EA /* SceneDelegate.swift */,
 				07F0460423D2B42400DB67EA /* ContentView.swift */,
+				07F0463023D2B4C000DB67EA /* Webview.swift */,
 				07F0460623D2B42500DB67EA /* Assets.xcassets */,
 				07F0460B23D2B42500DB67EA /* LaunchScreen.storyboard */,
 				07F0460E23D2B42500DB67EA /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F0460123D2B42400DB67EA /* AppDelegate.swift in Sources */,
+				07F0463123D2B4C000DB67EA /* Webview.swift in Sources */,
 				07F0460323D2B42400DB67EA /* SceneDelegate.swift in Sources */,
 				07F0460523D2B42400DB67EA /* ContentView.swift in Sources */,
 			);
